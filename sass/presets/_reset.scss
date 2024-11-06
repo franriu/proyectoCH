@@ -1,0 +1,42 @@
+/*
+JERARQUIAS POR ORDEN PIRAMIDAL
+!import <= posterior llamado luego del valor de propiedad
+id # <=clasificaciones troncales e irrepetibles para estructuras
+class . <= clasificaciones reutilizables para cajas y estilos 
+etiqueta/selector <= etiquetas semanticas de un html5
+
+METODOLOGIA CAMEL CASE Y BEM
+EstoEsUnaMetodologiaCamelCase <= se usa para un etiquetado rapido,directoy entendible 
+
+Bem <= Parte del bloque que vamos a modificar luego del elemento y por ultimo la modificacion  
+padre__hijo--elementoModificado <=mezcla de metodologias para un etiquetado rapido directo y entendible.
+*/
+
+/*
+Propiedades Margin y Padding:
+margin: 50 px; <= 1 valor todos sus lados 
+margin-top: 50px; <= Valor superior o X
+
+        TOP/BOTTOM    LEFT/RIGTH
+margin:    50px           30px
+
+        TOP   RIGTH   BOTTOM   LEFT 
+margin: 50px  30px    50px     30px; 
+
+border-left:;
+
+*/
+
+
+/*RESET CCS
+Llamado a todo el documento HTML*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    max-width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,25 @@
+/*ESTILOS FOOTER*/
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(236, 238, 225);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo img {
+    width: 40px;
+}
+
+.footer__links-ul , .footer__links-autor {
+    text-align: center;
+}
+
+.footer__redes i {
+    font-size: 40px;
+}
+
+.footer__links-autor {
+    font-size: 10px;
+}

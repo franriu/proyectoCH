@@ -1,0 +1,21 @@
+@media screen and (min-width: 1px) and (max-width:600px) {
+    .section__grid{
+        grid-template-columns: 200px ;
+        grid-template-rows: 100px 50px 1px 200px 1px 200px 1px 200px 1px 200px 75px ;
+        grid-template-areas:  
+                    /*col1*/   /*col2*/  
+        /*fila 1*/   "img0"                    
+        /*fila 2*/   "tipos"    
+        /*fila 3*/   "mago"   
+        /*fila 4*/   "img3"
+        /*fila 5*/   "dark"
+        /*fila 6*/   "img4"
+        /*fila 7*/   "guerrero"
+        /*fila 8*/   "img1"
+        /*fila 9*/   "elfa"
+        /*fila 10*/  "img2"
+        /*fila 11*/  "img5"
+            ;  
+    }
+}
+
