@@ -4,25 +4,60 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!--LIBRERIA ANIMATE CSS-->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+<!--LIBRERIA AOES-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!--LIBRERIA FONT AWESOME-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="../style.css">
+
+<!--LIBRERIA BTS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+<!--HOJA DE ESTILOS-->
+        <link rel="stylesheet" href="../css/style.css">
         <title>INFORMACION</title>
         <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
-
-
 </head>
 <fieldset>
 <body id="body">
+
+<!--NavBar BTS-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">INICIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INFORMACION</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="descarga.html">DESCARGA</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Registro.html">REGISTRO</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Vip.html">VIP<a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
     <!--ESTRUCTURA °1 = HEADER/NAV-->
     <header id="header">
         <nav id="navBar">
             <ul class="navBar-ul">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="#">INFORMACION</a></li>
-                <li><a href="descarga.html">DESCARGA</a></li>
-                <li><a href="Registro.html">REGISTRO</a></li>
-                <li><a href="Vip.html">VIP</a></li>
             </ul>
         </nav>
     </header>
@@ -36,19 +71,19 @@
     <section class="section__grid">
 
 <!--TIPOS DE CLASES /PAGINA DE INFORMACION-->
-        <h1 class="tipos">TIPOS DE CLASES</h1>
-        <h2 class="mago">Mage</h2>
-        <h2 class="elfa">Elf</h2>
-        <h2 class="guerrero">Warrior</h2>
-        <h2 class="dark">Dark Lord</h2>
+        <h1 class="tipos animate__animated animate__flash">TIPOS DE CLASES</h1>
+        <h2 class="mago animate__animated animate__fadeInTopLeft">Mage</h2>
+        <h2 class="elfa animate__animated animate__fadeInBottomRight">Elf</h2>
+        <h2 class="guerrero animate__animated animate__fadeInBottomLeft">Warrior</h2>
+        <h2 class="dark animate__animated animate__fadeInTopRight">Dark Lord</h2>
 
 <!--IMAGENES /PAGINA INFORMACION-->
-        <img class="img0" src="../images/clases.jpg" alt="">
-        <img class="img1" src="../images/dk.jpg" alt="">
-        <img class="img2" src="../images/elf.jpg" alt="">
-        <img class="img3" src="../images/mago.jpg" alt="">
-        <img class="img4" src="../images/dl.jpg" alt="">
-        <img class="img5" src="../images/class.jpg" alt="">
+        <img class="img0" data-aos="fade-down" src="../images/clases.jpg" alt="">
+        <img class="img1" data-aos="fade-up-right" src="../images/dk.jpg" alt="">
+        <img class="img2" data-aos="fade-up-left" src="../images/elf.jpg" alt="">
+        <img class="img3" data-aos="fade-down-right" src="../images/mago.jpg" alt="">
+        <img class="img4" data-aos="fade-down-left" src="../images/dl.jpg" alt="">
+        <img class="img5" data-aos="fade-up" src="../images/class.jpg" alt="">
 
     </section>
 
@@ -83,6 +118,16 @@
                 <i class="fa-regular fa-sun"></i>
             </section>
     </footer>
+
+<!--SCRIPT AOES-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+AOS.init();
+</script>
+
+<!--SCRIPT BTS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
 </body>
 </fieldset>
 </html>
