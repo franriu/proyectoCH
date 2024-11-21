@@ -1,3 +1,5 @@
+
+/*queries page clases */
 @media screen and (min-width: 1px) and (max-width:600px) {
     .section__grid{
         grid-template-columns: 200px ;
@@ -19,3 +21,16 @@
     }
 }
 
+
+/*queries page vip */
+@media screen and (min-width: 1px) and (max-width:600px) {
+    .section_vip{
+        grid-template-columns: 400px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        /*fila 1*/   "imgvip1"                    
+        /*fila 2*/   "imgvip"    
+        /*fila 3*/   "imgvip2"
+        ;
+    }
+}
